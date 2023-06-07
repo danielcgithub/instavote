@@ -11,6 +11,6 @@ spec:
   template:
     spec:
       containers: null
-      '-image': 'schoolofdevops/vote:v4'
+      -image: 'schoolofdevops/vote:v4'
       name: vote
 
