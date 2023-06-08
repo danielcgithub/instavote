@@ -7,3 +7,7 @@ patches:
 - path: service.yaml
 
 namespace: instavote
+
+configMapGenerator:
+   - name: vote-options
+     env: options.env
